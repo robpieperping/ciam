@@ -20,6 +20,7 @@ sn: Seawell
 cn: Esko Seawell
 uid: user.1
 userPassword: 2FederateM0re
+givenName: Esko
 pf-connected-identity: auth-source=pf-local-identity:user-id=user.1
 
 dn: uid=user.2,ou=People,${USER_BASE_DN}
@@ -31,6 +32,7 @@ objectClass: pf-connected-identities
 sn: Tancordo
 cn: Sidonia Tancordo
 uid: user.2
+givenName: Sidonia
 userPassword: 2FederateM0re
 pf-connected-identity: auth-source=pf-local-identity:user-id=user.2
 
@@ -43,8 +45,10 @@ objectClass: pf-connected-identities
 sn: Knio
 cn: Pierre-Marc Knio
 uid: user.3
+givenName: Pierre-Marc
 userPassword: 2FederateM0re
-pf-connected-identity: auth-source=pf-local-identity:user-id=user.3
+mail: user.3@acmeair.com
+pf-connected-identity: auth-source=pf-local-identity:user-id=user.3@acmeair.com
 
 dn: uid=user.4,ou=People,${USER_BASE_DN}
 objectClass: top
@@ -55,8 +59,10 @@ objectClass: pf-connected-identities
 sn: Psutka
 cn: Terza Psutka
 uid: user.4
+givenName: Teresa
 userPassword: 2FederateM0re
-pf-connected-identity: auth-source=pf-local-identity:user-id=user.4
+mail:user.4@republicair.com
+pf-connected-identity: auth-source=pf-local-identity:user-id=user.4@republicair.com
 
 dn: uid=administrator,ou=People,${USER_BASE_DN}
 objectClass: top
@@ -69,6 +75,7 @@ cn: Administrator
 uid: administrator
 userPassword: 2FederateM0re
 pf-connected-identity: auth-source=pf-local-identity:user-id=administrator
+ds-privilege-name: proxied-auth
 
 dn: uid=access2federate,ou=People,${USER_BASE_DN}
 objectClass: top
@@ -94,5 +101,3 @@ cn: Auditor
 uid: auditor
 userPassword: 2FederateM0re
 pf-connected-identity: auth-source=pf-local-identity:user-id=auditor
-
-
