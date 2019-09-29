@@ -1,0 +1,13 @@
+ID=1261838
+Organization=68
+Product=PingFederate
+Version=9.3
+IssueDate=2019-06-9
+EnforcementType=3
+ExpirationDate=2029-07-9
+Tier=Perpetual
+SaasProvisioning=true
+WSTrustSTS=true
+OAuth=true
+SignCode=FF07
+Signature=302C021415E92C6F31148DF4B1EF7BA550F53524B245AF6F0214064E8399CC97A1A3961A7226DFFE6EEB45BAEFFC
